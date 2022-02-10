@@ -5,6 +5,7 @@ module.exports = {
     },
     componentsDiscovery: {
         include: ['src/**'],
+        exclude: ['src/wcs-component-templates/**'],
     },
     boardGlobalSetup: './src/boards-global-setup.ts',
     scripts: {
