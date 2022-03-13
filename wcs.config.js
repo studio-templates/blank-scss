@@ -18,7 +18,6 @@ module.exports = {
 
     componentsDiscovery: {
         include: ['src/**'],
-        // exclude:
         exclude: ['src/wcs-component-templates/**'],
     },
 
