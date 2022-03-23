@@ -83,7 +83,7 @@ module.exports = {
      */
 
     //   resolve: {
-    //     packageRoots: [join(__dirname, "client", "src"), "node_modules"],
+    //     packageRoots: [path.join(__dirname, "client", "src"), "node_modules"],
     //     alias: {},
     //     fallback: {},
     //   },
