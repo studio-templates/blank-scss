@@ -67,6 +67,13 @@ module.exports = {
     //   boardExtensions: [".board.ts", ".board.tsx", ".custom.tsx"],
 
     /**
+     * Default directory for new boards, relative to the project root.
+     * Refer to https://component-studio.wixanswers.com/kb/en/article/kb22014 for more information.
+     */
+
+    //   boardsPath: "src/components",
+
+    /**
      * Adds Sass Support to Compilations
      * Refer to https://component-studio.wixanswers.com/en/article/kb12816 for more information.
      */
@@ -114,11 +121,11 @@ module.exports = {
     //   fileNamingConvention: "pascal-case",
 
     /**
-     * Configures maximum rendered elements (safe mode).
+     * Configures maximum rendered elements.
      * Refer to https://component-studio.wixanswers.com/en/article/kb34628 for more information.
      */
 
-    //   safeMode: {
+    //   safeRender: {
     //     maxInstancesPerComponent: 250,
     //   },
 
