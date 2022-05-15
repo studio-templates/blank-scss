@@ -1,6 +1,13 @@
 import React from 'react';
-import './new-component.scss';
+import styles from  './new-component.module.scss';
 
-export const NewComponent: React.FC = () => {
-    return <div className='new-component__root'>NewComponent</div>;
+export interface NewComponentProps {
+    className?: string;
+}
+
+export const NewComponent: React.FC<NewComponentProps> = (
+    className
+
+) => {
+    return <div className={`${styles.root} ${className}`}>NewComponent</div>;
 };
