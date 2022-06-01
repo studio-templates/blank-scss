@@ -1,6 +1,6 @@
 //src/index.scss
 @use 'partial/_colors.scss';
-@import 'partial/_spaces.scss';
+// @import 'partial/_spaces.scss';
 
 $currentCodeColor: colors.$codeColor;
 
@@ -18,5 +18,5 @@ code {
         monospace;
 
     color: $currentCodeColor;
-    padding: calc($medium * 10);
+    // padding: calc($medium * 10);
 }
