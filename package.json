@@ -41,7 +41,7 @@
     ]
   },
   "devDependencies": {
-    "@wixc3/react-board": "^2.0.5",
+    "@wixc3/react-board": "^2.0.3",
     "sass": "^1.55.0"
   }
 }
